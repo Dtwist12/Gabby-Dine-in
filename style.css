@@ -63,6 +63,24 @@ align-items: center;
  
 }
 
+.eventflex{
+display: flex;
+flex-direction: row;
+margin: 0 auto;
+/* align-items: center;
+justify-content:center;
+align-content: center; */
+}
+
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /* align-content: space-between;
+    align-items: space-between; */
+}
+
 
 nav li{
     display: inline-block;
@@ -112,6 +130,13 @@ h3{
     font-size: 35px;
 }
 
+
+.backgroundcolor{
+    background: rgb(26,30,40);
+    width: 100%;
+    padding:21;
+    margin: 0 auto;
+}
 span{
     font-weight: 300;
 }
@@ -178,6 +203,7 @@ span{
     /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
+
     /* justify-content: center; */
   
 }
@@ -207,6 +233,93 @@ background-image: url(images/burger\ 1.png);
     background-repeat:no-repeat;
     background-position-x: center;
     width: 100%;
-    padding: 250px;
+    padding: 150px;
     margin: 0 auto;
 }
+
+.candybox{
+    width: 100%;
+    padding: 21px;
+    margin: 0 auto;
+    
+} 
+
+.eventbox{
+
+
+    width: 388px;
+    height: 450px;
+   
+    margin: 0 auto;
+ 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+
+    /* width: 388px;
+    margin: 0 auto;
+    padding:175px ;*/
+    background-color:rgb(14,14,20) ; 
+}
+
+.color4{
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    padding:150px;
+    background-color: rgb(14,14,20) ;
+    margin: 0 auto;
+    /* border: 0.5px solid white; */
+}
+
+.footertext{
+    width: 100px;
+    /* height: 138px; */
+ padding: 25px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+  
+
+}
+
+.email{
+    background-color:rgb(26,30,40);
+    color:  rgb(14,14,20);
+    padding:10px;
+    border: none;
+}
+
+
+input[type=text]:focus {
+    background-color:white;
+}
+
+
+.buttoncolor{
+    background-color:rgb(158,129,241);
+}
+
+
+.inline{
+    display: inline-block;
+}
+
+.shadow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.thick{
+    font-weight: 600;
+}
+
+ol{
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+
