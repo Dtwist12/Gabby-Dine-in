@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="movies.htm">
+    <link rel="stylesheet" href="menu.htm">
+    <link rel="stylesheet" href="theatres.htm">
+    <link rel="stylesheet" href="extras.htm">
+</head>
+<body>
+  <!-- nav + header -->
+    <nav class="contain flex">
+        <div class="logo"><a href="index.htm"> <img id="log" src="images/logo.png"></a></div>
+        <div class="navcontain">
+       <li><a href="movies.htm">Movies</a></li>
+       <li><a href="menu.htm">Menu</a></li>
+       <li><a href="theatres.htm">Theatres</a></li>
+  <div class="dropdown">
+   <li><a href="extras.htm">Extras</a></li>
+  <div class="dropdown-text">
+  <a href="#">News</a>
+  <a href="#"> Rewards</a>
+  <a href="#"> About Filmx</a>
+  <a href="#">Help</a>
+  
+  </div>
+  </div>
+       </div>
+         <div class="search"> <a href="#"> <img src="images/search icon.png"></a>
+          <div id="line"><img src="images/Line 4.png"></div>
+          <a href="#"> <img src="images/account icon.png"></a></div>
+        </nav>
+ 
+
+
+<!-- content -->
+  <!-- <div class="contain3 flex">
+  </div> -->
+  <div class="contain flex2">
+  <div class="movietext"><h2>Now Showing</h2>
+  </div>
+  </div>
+  
+  <div class="container2 flex">
+  <div class="poster "><img class="shadow" src="images/spiderman.png">
+    <h3>Spider-Man: No Way Home</h3>
+    <p>PG-13 | 2HR 30 MIN</p>
+    <button class="button1" onclick="document.location='tickets.htm'"> Get Tickets</button>
+  </div>
+  <div class="poster"><img  class="shadow" src="images/uncharted.png" height="438.07">
+  <h3>Uncharted</h3>
+  <p> PG-13 | 1HR 55 MIN</p>
+  <button class="button1" onclick="document.location='tickets.htm'"> Get Tickets</button>
+  </div>
+  <div class="poster"><img  class="shadow"  src="images/nile.png"> 
+  <h3>Death on the Nile</h3>
+  <p>PG-13 | 2 HR 7 MIN</p>
+  <button class="button1" onclick="document.location='tickets.htm'"> Get Tickets</button>
+  </div>
+  <div class="poster"><img  class="shadow"  src="images/marryme.png">
+  <h3>Marry Me
+  </h3>
+  <p>PG-13 | 1 HR 52 MIN</p>
+  <button class="button1" onclick="document.location='tickets.htm'"> Get Tickets</button>
+  </div>
+  </div>
+ 
+
+  
+  <div class="contain flex2 coloradjustment">
+    
+  <div class="movietext"><h2>Coming Soon</h2>
+  </div>
+  </div>
+
+
+  <div class="moviepostercontain flex">
+    <div class="poster "><img class="shadow" src="images/jujutsu.png">
+      <h3>Jujutsu Kaisen 0</h3>
+      <p>PG-13 | 1HR 45 MIN</p>
+      <button class="button1" onclick="document.location='tickets.htm'"> Get Tickets</button>
+    </div>
+    <div class="poster"><img  class="shadow" src="images/sonic.png" height="438.07">
+    <h3>Sonic The Hedgehog 2</h3>
+    <p> PG | Apr 8, 2022</p>
+    <button class="button1" onclick="document.location='tickets.htm'"> Get Tickets</button>
+    </div>
+    <div class="poster"><img  class="shadow"  src="images/Jurassic.png"> 
+    <h3>Jurassic World: Dominon</h3>
+    <p>PG-13 | Jun 10, 2022</p>
+    <button class="button1" onclick="document.location='tickets.htm'"> Get Tickets</button>
+    </div>
+    <div class="poster"><img  class="shadow"  src="images/buzz.png">
+    <h3>Lightyear
+    </h3>
+    <p>NR | Jun 17, 2022</p>
+    <button class="button1" onclick="document.location='tickets.htm'"> Get Tickets</button>
+    </div>
+    </div>
+
+
+    <div class="candybox flex3 backgroundcolor">
+
+      <img src="images/popcorn.png"> <div class="textbox">
+      
+        <h3>Order Food Ahead</h3>
+        <p>Have food ready at your seat when you get here. No distractions. Just the movie and your food. Download the Flimx app and start your order early!</p>
+       <button class="button1 buttoncolor" onclick="document.location='#'"> Get the App</button> <button class="button1 buttoncolorgrey" onclick="document.location='menu.htm'"> View Menu</button>
+        </div>
+        </div>
+       <!-- footer -->
+      
+       <div class="footer flex">
+        <div class="logo"><a href="index.htm"> <img id="log" src="images/logo.png"></a></div>
+      
+        <div class="footertext">
+          <ol>
+      <li class="thick">Movies</li>
+      <li>All Movies</li>
+      <li>Featured</li>
+      <li>Ratings</li>
+          </ol>
+        </div>
+      
+      
+      
+      
+        <div class="footertext">
+          <ol>
+      <li class="thick">Locations</li>
+      <li>All Locations</li>
+      <li>Tampa</li>
+      <li>Orlando</li>
+          </ol>
+        </div>
+      
+        <div class="footertext ">
+          <ol>
+      <li class="thick">Company</li>
+      <li>About</li>
+      <li>Contact</li>
+      <li>Menu</li>
+      <li>Terms & Conditions</li>
+          </ol>
+        </div>
+      
+        <div class="footertext">
+          <ol>
+      <li class="thick">Connect</li>
+      <li>Sign-up for our newsletter</li>
+      <li><input class="email"  type="text" placeholder="Email Address"></li>  <button type="submit" class="button1"> subscribe</button>
+          </ol>
+       <div class="flex">  <img src="images/icons8_facebook_f_48px 1.png"> <img src="images/icons8_twitter_60px 1.png"> <img src="images/icons8_Instagram_48px 1.png"></div>
+        </div>
+      
+      </div>
+    
+    
+    
+    
+    
+
+
+      
+      </div>
+      </div>
+      </div>
+
+
+
+
+
+</body>
+</html>

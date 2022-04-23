@@ -16,6 +16,7 @@ body{
     width: 960px;
     padding: 21px;
     display: flex;
+
     justify-content: space-around;
 
 }
@@ -26,6 +27,10 @@ body{
     
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+}
 
 
 .search{
@@ -39,12 +44,22 @@ align-items: center;
     padding: 0 15px;
 }
 
+.moviepostercontain{
+    width: 100%;
+    padding: 100px;
+}
+
+
 .contain{
     width: 100%;
+    background-color: rgb(26,30,40);    
     padding:21px;
-    background-color: rgb(26,30,40);
-    margin: 0 auto;
-    /* border: 0.5px solid white; */
+ margin: 0 auto;
+   
+}
+
+nav{
+    background-color: rgb(14,14,20);
 }
 
 .flex{
@@ -55,6 +70,8 @@ align-items: center;
     align-content: center;
 
 }
+
+
 
 .flex2{
     display: flex;
@@ -115,6 +132,30 @@ nav a:hover{
     
 }
 
+
+.ticketcontain{
+    background-image: url(images/dino\ 1.png);
+    background-repeat:no-repeat;
+    background-position-x: center;
+    width: 100%;
+    padding: 100px;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    
+
+}
+
+
+.menucontainer{
+    background-image: url(images/veggies.png);
+    background-repeat:no-repeat;
+    background-position-x: center;
+    width: 100%;
+    padding: 100px;
+    margin: 0 auto;
+}
+
+
 .textbox{
     width:40%;
     padding:25px;
@@ -130,7 +171,9 @@ h3{
     font-size: 35px;
 }
 
-
+.coloradjustment{
+    background-color:rgb(14,14,20);
+}
 .backgroundcolor{
     background: rgb(26,30,40);
     width: 100%;
@@ -239,7 +282,7 @@ background-image: url(images/burger\ 1.png);
 
 .candybox{
     width: 100%;
-    padding: 21px;
+    padding: 35px;
     margin: 0 auto;
     
 } 
@@ -268,16 +311,15 @@ background-image: url(images/burger\ 1.png);
 
 .footer{
     width: 100%;
-    padding:150px;
+    padding:25px 50px;
     background-color: rgb(14,14,20) ;
     margin: 0 auto;
     /* border: 0.5px solid white; */
 }
 
 .footertext{
-    width: 100px;
-    /* height: 138px; */
- padding: 25px;
+    width: 40px;
+ padding: 10px;
 
     font-family: 'Work Sans';
     font-style: normal;
@@ -303,6 +345,21 @@ input[type=text]:focus {
 }
 
 
+.buttoncolorgrey{
+    color:rgb(158,129,241);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    padding: 20px 35px;
+    border-radius: 12px;
+    border: 1px solid rgb(158,129,241);
+    background-color:rgb(26,30,40);
+}
+
+.buttoncolorgrey:hover{
+    color: white;
+}
+
+
 .inline{
     display: inline-block;
 }
@@ -323,3 +380,74 @@ ol{
 }
 
 
+li{
+    list-style-type: none;
+}
+
+p a{
+    color:rgb(53,189,219);
+}
+
+.changeblue{
+    color:rgb(53,189,219);
+}
+
+.menunav{
+
+    width: 100%;
+    padding: 21px;
+    margin: 0 auto;
+    background-color: rgb(26,30,40);    
+    display: flex;
+justify-content: space-around;
+
+}
+
+.menunav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+}
+.menunav a:hover{
+    text-decoration:underline white ;
+}
+
+.menuitems{
+    background-color: rgb(38, 43, 56);
+    width: 100%;
+    padding: 45px 65px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+/* 432 */
+.menudescription{
+    width: 460px; 
+    padding: 50px 5px;
+ 
+ 
+    margin: 10px;
+
+}
+
+.menudescription ol h3{
+    font-size: 35px;
+}
+
+.menudescription ol strong{
+    font-size: 30px;
+}
+
+.menudescription  li{
+ font-weight:200;
+ font-size: 18px;
+}
+
+.menudescription span{
+    font-weight: bold;
+}
+
+.imgwidth{
+    width: 432px;
+}
