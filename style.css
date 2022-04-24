@@ -451,3 +451,20 @@ justify-content: space-around;
 .imgwidth{
     width: 432px;
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    /* justify-content: space-around; */
+}
+
+.casttext{
+    width: 50px;
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+align-items:stretch;
+align-content:space-around;
+}
