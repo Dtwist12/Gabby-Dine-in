@@ -175,10 +175,11 @@ h3{
     background-color:rgb(14,14,20);
 }
 .backgroundcolor{
-    background: rgb(26,30,40);
+    background: rgb(14,14,20);
     width: 100%;
     padding:21;
     margin: 0 auto;
+
 }
 span{
     font-weight: 300;
@@ -273,6 +274,7 @@ h4{
 }
 .burger{
 background-image: url(images/burger\ 1.png);
+background-size: cover;
     background-repeat:no-repeat;
     background-position-x: center;
     width: 100%;
@@ -318,9 +320,9 @@ background-image: url(images/burger\ 1.png);
 }
 
 .footertext{
-    width: 40px;
- padding: 10px;
-
+    width: 120px;
+ padding: 50px;
+margin: 0 auto;
     font-family: 'Work Sans';
     font-style: normal;
   
@@ -342,6 +344,27 @@ input[type=text]:focus {
 
 .buttoncolor{
     background-color:rgb(158,129,241);
+}
+
+
+.buttonwhite{
+    border:1px solid white;
+    color:white;
+    border-radius: 12px;
+    background-color:rgb(26,30,40);
+    padding: 20px 35px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+.buttonborderblue{
+    border:1px solid rgb(53,189,219);
+    color:rgb(53,189,219);
+    border-radius: 12px;
+    background-color:rgb(26,30,40);
+    padding: 20px 35px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
 }
 
 
@@ -456,7 +479,8 @@ justify-content: space-around;
     display: flex;
     flex-direction: row;
     margin: 10px;
-    /* justify-content: space-around; */
+
+    justify-content: space-around;
 }
 
 .casttext{
@@ -464,9 +488,9 @@ justify-content: space-around;
     padding:15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-align-items:stretch;
-align-content:space-around;
+    justify-content: space-between;
+align-items:space-between;
+align-content:space-between;
 }
 
 .headercontent{
